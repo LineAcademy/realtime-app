@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: realtime-nextjs
-    env: node
-    plan: free
-    buildCommand: npm install && npm run build
-    startCommand: npm start
-    branch: main
